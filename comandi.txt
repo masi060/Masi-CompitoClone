@@ -1,0 +1,30 @@
+   27  cd masi
+   28  git clone https://github.com/sena-meucci/progettoStampa
+   29  cd progettoStampa/
+   30  git config user.email "masi.niccolo@itismeucci.com"
+   31  git config user.name "masi060"
+   32  git status
+   33  git add .
+   34  git status
+   35  git commit -a "inserito nome"
+   36  git commit -m "inserito nome"
+   37  git status
+   38  git log
+   39  git branch BugFix
+   40  git log
+   41  git checkout BugFix
+   42  git status
+   43  git add .
+   44  git status
+   45  git commit -m "errore risolto in stampa"
+   46  git merge master BugFix
+   47  git checkout master
+   48  git log
+   49  code . 
+   50  git branch BugFix
+   51  git merge BugFix master
+   52  git log
+   53  code .
+   54  git branch -d BugFix
+   55  git log
+   56  history 30 > comandi.txt
